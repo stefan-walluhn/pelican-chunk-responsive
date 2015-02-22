@@ -12,5 +12,9 @@
   },
   "description": "Pelican theme based on chunk",
   "author": "Stefan Walluhn",
-  "license": "GPLv3"
+  "license": "GPLv3",
+  "repository" : {
+      "type" : "git",
+      "url" : "https://github.com/swalluhn/pelican-chunk-responsive.git"
+  }
 }
