@@ -1,0 +1,90 @@
+@font: 'Oswald';
+@border: 1px solid #ddd;
+@background-color: #f5f5f5;
+
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oswald Regular'), local('Oswald-Regular'), url(http://fonts.gstatic.com/s/oswald/v10/-g5pDUSRgvxvOl5u-a_WHw.woff) format('woff');
+}
+
+body {
+    background-color: @background-color;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.22), rgba(255, 255, 255, 0) 20px);
+    color: #555;
+}
+
+a {
+    background-color: transparent;
+}
+
+.jumbotron {
+    background-color: transparent;
+    padding: 30px 15px;
+}
+
+.jumbotron h1 {
+    color: #000;
+    font-family: @font, Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    text-rendering: optimizelegibility;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.navbar {
+    background-color: @background-color;
+    border-radius: 0;
+    border-bottom: @border;
+    border-top: @border;
+    min-height: 0;
+}
+
+.navbar li {
+    color: #666;
+    font-family: @font,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    color: #666;
+    background-color: @background-color;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    background-color: @background-color;
+}
+
+.entry-meta {
+    color: #aaa;
+    font-family: @font,Helvetica,Arial,sans-serif;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.by-date {
+    color: #000;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.main h2 {
+    color: #666;
+    font-weight: bold;
+    font-family: @font,Helvetica,Arial,sans-serif;
+    margin: 4px 0 15px;
+    text-transform: uppercase;
+    font-size: 1.7em;
+}
+
+.footer div {
+    border-top: @border;
+    margin-top: 50px;
+    padding: 25px ;
+    font-weight: bold;
+    font-size: 0.8em;
+    text-align: center;
+}
